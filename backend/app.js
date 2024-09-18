@@ -6,8 +6,10 @@ const logger = require('morgan');
 const mongoose = require('mongoose');
 var MongoClient=require("mongodb").MongoClient;
 var cors=require("cors");
+import 'dotenv/config';
+require('dotenv').config();
 
-const url = 'mongodb://localhost:27017/findMyTrail';
+const url = process.env.DATABASE_URL;
 const connect = mongoose.connect(url, {
   useCreateIndex: true,
   useFindAndModify: false,
