@@ -1,0 +1,73 @@
+{
+  "name": "find-my-trail",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
+    "@auth0/auth0-spa-js": "^2.1.3",
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-react": "^7.24.7",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.2.3",
+    "bootstrap-social": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "firebase": "^10.13.1",
+    "font-awesome": "^4.7.0",
+    "formik": "^2.2.9",
+    "http-errors": "^2.0.0",
+    "jade": "^1.11.0",
+    "latest": "^0.2.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
+    "morgan": "^1.10.0",
+    "n": "^9.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.3.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "^3.0.1",
+    "react-spring": "^9.4.5-beta.1",
+    "reactstrap": "^9.0.1",
+    "redux-logger": "^3.0.6",
+    "typeface-lobster": "^1.1.13",
+    "typeface-open-sans": "^1.1.13",
+    "typeface-roboto": "^1.1.13",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "The Hiking Trail Finder is a web application that allows users to explore and discover hiking trails, search for trails in a directory, rate and review trails, and authenticate users.",
+  "main": "index.js",
+  "author": "neeti",
+  "license": "ISC"
+}
